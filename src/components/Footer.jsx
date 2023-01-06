@@ -55,8 +55,8 @@ const Footer = () => {
                 </div>
 
                 <div className="text-center text-light p-3">
-                    © 2020 Copyright:
-                    <a className="text-light" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+                    © 2023 Copyright:
+                    <a className="text-light" href="https://mdbootstrap.com/">sbudaEmpire@co.za</a>
                 </div>
             </footer>
         </>
