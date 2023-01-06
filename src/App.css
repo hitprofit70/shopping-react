@@ -13,3 +13,9 @@ footer .fab {
 footer .text-light {
     text-decoration: none;
 }
+
+.spinner-DotLoader {
+    margin-top: 300px;
+    margin-left: 650px;
+    margin-right: 650px;
+  }
