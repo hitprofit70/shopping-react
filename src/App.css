@@ -9,3 +9,7 @@ footer {
 footer .fab {
     color: white;
 }
+
+footer .text-light {
+    text-decoration: none;
+}
