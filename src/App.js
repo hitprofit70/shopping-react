@@ -1,4 +1,5 @@
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.css';
 import Home from './pages/Home';
 import { useState, useEffect } from "react";
 import DotLoader from "react-spinners/DotLoader";

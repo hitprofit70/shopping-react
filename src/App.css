@@ -3,7 +3,12 @@ footer {
 }
 
 .btn {
-    color: white;
+    color: black;
+    padding: 10px;
+}
+
+.card-body .btn {
+    gap: 5rem;
 }
 
 footer .fab {
@@ -18,4 +23,35 @@ footer .text-light {
     margin-top: 300px;
     margin-left: 650px;
     margin-right: 650px;
+  }
+
+  .card {
+    margin-top: 60px;
+    height: 250px;
+    width: 250px;
+    margin-left: 40px;
+  }
+
+  .card img {
+    width: 100%;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  }
+
+  .slogan {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .cart-title {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+    background-color: gainsboro;
+    text-align: center;
   }
