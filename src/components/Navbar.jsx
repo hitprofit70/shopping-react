@@ -1,5 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
     return (
@@ -13,22 +14,22 @@ const Navbar = () => {
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#">Home</a>
+                                <Link to={"/"} className="nav-link active" aria-current="page" href="#">Home</Link>
                             </li>
                         </ul>
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#">About</a>
+                                <Link to={"/about"} className="nav-link active" aria-current="page" href="#">About</Link>
                             </li>
                         </ul>
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#">Download App</a>
+                                <Link to={"/downloadapp"} className="nav-link active" aria-current="page" href="#">Download App</Link>
                             </li>
                         </ul>
                     </div>
                         <div className='checkout'>
-                            <button className='btn'>My Cart</button>
+                            <Link to={"/mycart"} className='btn'>My Cart</Link>
                         </div>
                         <div className='btn'>
                             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black" class="bi bi-bag-check" viewBox="0 0 16 16">
