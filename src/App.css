@@ -7,9 +7,10 @@ footer {
     padding: 10px;
 }
 
-footer svg {
-    margin-left: 400px;
-    margin-right: 400px;
+.checkout .btn {
+  border-radius: 6px;
+  margin-right: 20px;
+  font-weight: bold;
 }
 
 .card-body .btn {
