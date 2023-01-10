@@ -76,3 +76,16 @@ footer .icons svg {
     text-align: center;
   }
 
+  .title-about {
+    text-align: center;
+    margin-top: 60px;
+    font-weight: bold;
+  }
+
+  .about-image {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 160px;
+    margin-top: -150px;
+    gap: 3rem;
+  }
