@@ -121,10 +121,10 @@ footer .icons svg {
   .card-cart {
     border-radius: 6px;
     height: 490px;
-    width: 100%;
+    width: 1330px;
     margin-top: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
     background-color: whitesmoke;
     display: grid;
     grid-template-columns: auto auto;

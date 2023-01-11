@@ -4,8 +4,9 @@ import Footer from '../components/Footer'
 
 const MyCart = () => {
   return (
-    <>
+    <div>
     <Navbar/>
+    <div className='fliud-container'>
     <div className='card-cart'>
       <div className='row'>
         <img src='https://cdn.avo.africa/2022/11/14/12/16/dab25928-92f1-4038-ba5e-2789c7b98437' alt=''/>
@@ -23,7 +24,8 @@ const MyCart = () => {
       </div>
     </div>
     <Footer/>
-    </>
+    </div>
+    </div>
   )
 }
 
