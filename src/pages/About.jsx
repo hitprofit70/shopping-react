@@ -1,6 +1,5 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
 import Container from 'react-bootstrap/Container';
 
 const About = () => {
@@ -19,7 +18,6 @@ const About = () => {
         </div>
     </Container>
     </>
-    <Footer/>
     </>
   )
 }

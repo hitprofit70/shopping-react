@@ -1,6 +1,5 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
 
 const MyCart = () => {
   return (
@@ -23,7 +22,6 @@ const MyCart = () => {
         <button className='btn-cart'>Confirm</button>
       </div>
     </div>
-    <Footer/>
     </div>
     </div>
   )
