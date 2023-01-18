@@ -7,12 +7,12 @@ const Navbar = () => {
         <>
             <nav className="navbar navbar-index navbar-expand-lg bg-light">
                 <div className="container-fluid">
-                    <button type="button" class="btn-close" aria-label="Close"></button>
+                    <button type="button" className="btn-close" aria-label="Close"></button>
                     <Link to={"/home"} className="navbar-brand" href="#">NSP</Link>
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav">
                             <form class="d-flex" role="search">
-                                <input class="form-control me-2" type="search" placeholder="Search " aria-label="Search" />
+                                <input class="form-control me-2" type="search" placeholder="Search NSP " aria-label="Search" />
                                 <button class="btn btn-outline-dark" type="submit">Search</button>
                             </form>
                         </ul>
