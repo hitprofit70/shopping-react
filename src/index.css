@@ -12,10 +12,46 @@ code {
     monospace;
 }
 
+.navbar-index {
+  z-index: 0;
+}
+
 .sidebar {
   width: 200px;
-  min-height: auto;
+  height: 700px;
   background-color: whitesmoke;
+  overflow-y: scroll;
+  margin: 0px;
+}
+
+.sidebar .icons:hover {
+  transition: 0s;
+  transform: scale(1.1);
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: white;
+  gap: 5rem;
+  margin-left: 20px;
+}
+
+.icons ul {
+  margin-top: 10px;
+}
+
+.share:hover {
+  transition: 0s;
+  transform: scale(1.1);
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: white;
+  gap: 5rem;
+  margin-left: 20px;
+}
+
+.sidebar .discover {
+  margin-top: 20px;
 }
 
 svg {
@@ -25,14 +61,43 @@ svg {
 .icons ul {
   display: grid;
   grid-template-columns: auto auto auto auto;
+  margin: 0px;
 }
 
-.icons h4{
-  margin-top: 10px;
+.support ul {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin: 0px;
+}
+
+.login-form ul {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.share ul {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.icons h6{
+  margin-top: 20px;
 }
 
 .icons svg{
   margin-bottom: 10px;
+}
+
+.share h6 {
+  margin-top: 20px;
+}
+
+.login-form h6 {
+  margin-top: 20px;
+}
+
+.support-chat h6 {
+  margin-top: 20px;
 }
 
 .social-icon svg {
@@ -45,6 +110,22 @@ svg {
  transform: scale(1.2);
  transition: 0s;
 }
+
+.share svg:hover {
+  transform: scale(1.2);
+  transition: 0s;
+ }
+
+ .support-chat svg:hover {
+  transform: scale(1.2);
+  transition: 0s;
+ }
+
+ .login-form svg:hover {
+  transform: scale(1.2);
+  transition: 0s;
+ }
+
 
 
 

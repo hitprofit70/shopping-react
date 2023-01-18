@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
     return (
         <>
-            <nav className="navbar navbar-expand-lg bg-light">
+            <nav className="navbar navbar-index navbar-expand-lg bg-light">
                 <div className="container-fluid">
                     <button type="button" class="btn-close" aria-label="Close"></button>
                     <Link to={"/home"} className="navbar-brand" href="#">NSP</Link>
