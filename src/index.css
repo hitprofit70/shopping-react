@@ -155,21 +155,19 @@ code {
 --btn-close-white-filter:     invert(1) grayscale(100%) brightness(200%);
   }
 
-.navbar-index {
-  z-index: 0;
-}
-
 .navbar .btn-close {
   margin-right: 20px;
 }
 
+
+/* Sidebar */
 .sidebar {
   width: 200px;
-  height: 700px;
+  height: 1000px;
   background-color: whitesmoke;
   overflow-y: scroll;
   margin: 0px;
-  margin-top: -110px;
+  margin-top: -1730px;
 }
 
 .sidebar .icons:hover {
@@ -275,6 +273,8 @@ svg {
   transition: 0s;
  }
 
+
+ /* Main crerated card and details in pages*/
  .main {
   margin-left: 230px;
  }
@@ -294,11 +294,9 @@ svg {
   grid-template-columns: auto auto auto auto auto;
  }
 
- .card-detail span {
-  float: right;
- }
 
- .row .card-product {
+/* Shopping deals */
+.row .card-product {
   margin-top: 10px;
   width: 170px;
   height: 400px;
@@ -331,7 +329,69 @@ svg {
   width: 140px;
  }
 
+ .card-detail {
+  margin-top: 30px;
+}
 
+.card-detail span {
+  float: right;
+  font-size: 12px;
+ }
+
+
+/* Explore shop */
+.small-card .card-one {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 2px;
+}
+
+.row .card-one {
+  width: 150px;
+  height: 55px;
+  background-color: whitesmoke;
+  border: 1px solid;
+  border-radius: 10px;
+}
+
+.row .card-one a {
+  text-align: center;
+  margin-top: 15px auto;
+  font-weight: bold;
+}
+
+.small-card {
+  margin-top: 30px;
+}
+
+
+/* Takeaway */
+.takeaway-card {
+  margin-top: 30px;
+}
+
+.takeaway-card span {
+  float: right;
+  font-size: 12px;
+ }
+
+.takeaway-card img {
+  width: 400px;
+  height: 200px;
+  border-radius: 20px;
+}
+
+
+/* Features stores */
+.featured-stores img {
+  width: 400px;
+  height: 200px;
+  border-radius: 20px;
+}
+
+.featured-stores {
+  margin-top: 30px;
+}
 
 
 
