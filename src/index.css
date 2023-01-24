@@ -140,21 +140,6 @@ code {
     font-size: 20px;
   }
 
-  :root {
-    --btn-close-width:            1em;
---btn-close-height:           --btn-close-width;
---btn-close-padding-x:        .25em;
---btn-close-padding-y:        --btn-close-padding-x;
---btn-close-color:            --black;
---btn-close-bg:               url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$btn-close-color}'><path d='M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z'/></svg>");
---btn-close-focus-shadow:     --input-btn-focus-box-shadow;
---btn-close-opacity:          .5;
---btn-close-hover-opacity:    .75;
---btn-close-focus-opacity:    1;
---btn-close-disabled-opacity: .25;
---btn-close-white-filter:     invert(1) grayscale(100%) brightness(200%);
-  }
-
 .navbar .btn-close {
   margin-right: 20px;
 }
@@ -163,11 +148,12 @@ code {
 /* Sidebar */
 .sidebar {
   width: 200px;
-  height: 1000px;
-  background-color: whitesmoke;
+  height: 700px;
+  background-color: white;
   overflow-y: scroll;
   margin: 0px;
-  margin-top: -1730px;
+  margin-top: -1410px;
+  font-size: 13px;
 }
 
 .sidebar .icons:hover {
@@ -274,45 +260,96 @@ svg {
  }
 
 
- /* Main crerated card and details in pages*/
+ /* promotions-card crerated card and details in pages*/
  .main {
-  margin-left: 230px;
+  margin-left: 199px;
+  background-color: whitesmoke;
  }
 
- .card {
-  margin-top: 50px;
+ .main-title {
+  margin-left: 20px;
  }
 
- .card .body img {
-  width: 400px;
-  height: 200px;
-  border-radius: 20px;
+ .main-small-title {
+  margin-left: 20px;
  }
 
- .main .row {
+ .promotions-card {
+  margin-left: 20px;
+ }
+
+ .promotions-header h4 {
+  margin-top: 30px;
+ }
+
+ .page-link {
+  width: 50px;
+  border-radius: 50px;
+ }
+
+ .page-link:hover {
+  transition: 1s;
+  transform: scale(1.2);
+ }
+
+ .promotions-card .row {
   display: grid;
   grid-template-columns: auto auto auto auto auto;
  }
 
+ .promotions-card .body img {
+  width: 350px;
+  border-radius: 10px;
+ }
+
+ .promotions-card .body {
+  margin-left: 20px;
+  margin: 1px;
+ }
+ 
+
+ .visually-hidden {
+  background-color: black;
+ }
+
+ .carousel-control-next-icon {
+  background-color: black;
+  border-radius: 10px;
+  margin-left: 200px;
+  margin-top: -100px;
+ }
+
+ .carousel-control-prev-icon {
+  background-color: black;
+  border-radius: 10px;
+  margin-left: 200px;
+  margin-top: -100px;
+ }
 
 /* Shopping deals */
+.card-detail h4{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.card-detail .row {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+  margin: 10px;
+}
 .row .card-product {
   margin-top: 10px;
   width: 170px;
-  height: 400px;
-  border: 1px solid;
+  height: 330px;
+  border: 1px solid gainsboro;
   border-radius: 15px;
+  margin-left: -30px;
+  margin: 10px;
+  background-color: white;
  }
 
  .card-detail .row {
   margin-top: 20px;
- }
-
- .sale-discount {
-  background-color: rgb(0, 157, 255);
-  border-radius: 10px;
-  width: 80px;
-  text-align: center;
  }
 
  .card-product .btn-deals {
@@ -323,15 +360,52 @@ svg {
   font-size: 14px;
   width: 150px;
   height: 35px;
+  margin-top: 10px;
  }
  
  .product-image img {
   width: 140px;
+  height: 140px;
  }
 
- .card-detail {
-  margin-top: 30px;
-}
+ .product-image {
+  width: 200px;
+  height: 140px;
+ }
+
+ .sale-discount {
+  background-color: rgb(0, 157, 255);
+  border-radius: 10px;
+  width: 80px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+ }
+
+ .product-name {
+  font-size: 12px;
+  font-weight: bold;
+ }
+
+ .product-brief-name {
+  font-size: 12px;
+ }
+
+ .product-price {
+  font-size: 19px;
+  font-weight: bold;
+  color: rgb(18, 165, 116);
+ }
+
+ .product-credit {
+  font-size: 12px;
+ }
+
+ .product-expired-price {
+  font-size: 12px;
+  color: gainsboro;
+  text-decoration: line-through;
+ }
 
 .card-detail span {
   float: right;
@@ -339,35 +413,38 @@ svg {
  }
 
 
+
 /* Explore shop */
-.small-card .card-one {
+.small-card {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.small-card .row {
   display: grid;
-  grid-template-columns: auto auto;
-  margin: 2px;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto;
 }
 
 .row .card-one {
   width: 150px;
   height: 55px;
-  background-color: whitesmoke;
-  border: 1px solid;
+  background-color: white;
+  border: 1px solid gainsboro;
   border-radius: 10px;
+  margin: 10px;
 }
 
-.row .card-one a {
+.row .card-one p {
   text-align: center;
-  margin-top: 15px auto;
+  margin-top: 5px;
   font-weight: bold;
-}
-
-.small-card {
-  margin-top: 30px;
 }
 
 
 /* Takeaway */
 .takeaway-card {
-  margin-top: 30px;
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
 .takeaway-card span {
@@ -376,21 +453,23 @@ svg {
  }
 
 .takeaway-card img {
-  width: 400px;
-  height: 200px;
+  width: 380px;
+  height: 150px;
   border-radius: 20px;
 }
 
 
 /* Features stores */
-.featured-stores img {
-  width: 400px;
-  height: 200px;
-  border-radius: 20px;
-}
 
 .featured-stores {
-  margin-top: 30px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.featured-stores img {
+  width: 380px;
+  height: 180px;
+  border-radius: 20px;
 }
 
 
