@@ -150,9 +150,9 @@ code {
   width: 200px;
   height: 700px;
   background-color: white;
-  overflow-y: scroll;
+  overflow: auto;
   margin: 0px;
-  margin-top: -1410px;
+  margin-top: -1420px;
   font-size: 13px;
 }
 
@@ -259,11 +259,30 @@ svg {
   transition: 0s;
  }
 
+ .finanical-serive p {
+  padding: 7px;
+ }
+
+ /* @media only screen and (max-width: 700px) {
+  .main {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .main {
+    width: 100%;
+  }
+} */
 
  /* promotions-card crerated card and details in pages*/
  .main {
   margin-left: 199px;
   background-color: whitesmoke;
+  position: relative;
+  left: 0px;
+  top: 0px;
  }
 
  .main-title {
@@ -295,6 +314,7 @@ svg {
  .promotions-card .row {
   display: grid;
   grid-template-columns: auto auto auto auto auto;
+  width: 100%;
  }
 
  .promotions-card .body img {
@@ -336,6 +356,7 @@ svg {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
   margin: 10px;
+  width: 100%;
 }
 .row .card-product {
   margin-top: 10px;

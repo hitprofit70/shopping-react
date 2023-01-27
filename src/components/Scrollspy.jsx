@@ -160,6 +160,11 @@ const Scrollspy = () => {
                             <h6>Region (RSA)</h6>
                         </ul>
                     </div>
+                    <div className='finanical-serive'>
+                        <ul>
+                        <p>Nedbank Ltd Reg. No 1951/000009/06. Licensed financial services and registered credit provider (NCRCP16).</p>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </>
