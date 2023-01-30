@@ -310,41 +310,22 @@ svg {
   transition: 1s;
   transform: scale(1.2);
  }
-
- .promotions-card .row {
+ .swiper-wrapper {
   display: grid;
   grid-template-columns: auto auto auto auto auto;
-  width: 100%;
- }
+}
 
- .promotions-card .body img {
+ .promotions-card .swiper-slide img {
   width: 350px;
+  height: 195px;
   border-radius: 10px;
  }
 
- .promotions-card .body {
+ .promotions-card .swiper-slide {
   margin-left: 20px;
-  margin: 1px;
+  margin: 10px;
  }
  
-
- .visually-hidden {
-  background-color: black;
- }
-
- .carousel-control-next-icon {
-  background-color: black;
-  border-radius: 10px;
-  margin-left: 200px;
-  margin-top: -100px;
- }
-
- .carousel-control-prev-icon {
-  background-color: black;
-  border-radius: 10px;
-  margin-left: 200px;
-  margin-top: -100px;
- }
 
 /* Shopping deals */
 .card-detail h4{

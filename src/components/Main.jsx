@@ -10,38 +10,33 @@ const Main = () => {
                 <div className='promotions-header'>
                     <h4>Promotions</h4>
                 </div>
-                <div className="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    <div className='row'>
+                    <div className='swiper'>
+                        <div className='swiper-wrapper'>
+                        <div className='swiper-slide'>
+                            <img src="https://cdn.avo.africa/cdn-cgi/image/w=580/primers/2022/12/29/12/41/c29431de-75cb-44ba-baf7-924ef88cc3e0.jpg" alt="" className="" />
+                        </div>
+                        <div className='swiper-slide'>
+                            <img src="https://cdn.avo.africa/cdn-cgi/image/w=580/primers/2023/1/11/15/31/aa2e3bdd-d47e-4d49-9237-8cf17ee5f639.png" alt="" className="" />
+                        </div>
+                        <div className='swiper-slide'>
+                            <img src="https://cdn.avo.africa/primers/2022/12/22/5/22/f4d06926-63f1-43d6-8ae0-483a5350ec8c.jfif" alt="" className="" />
+                        </div>
+                        <div className='swiper-slide'>
+                            <img src="https://cdn.avo.africa/cdn-cgi/image/w=580/primers/2023/1/10/6/53/f784b523-fe84-4fb0-becd-b0393e3dba1e.jpg" alt="" className="" />
+                        </div>
+                        <div className='swiper-slide'>
+                            <img src="https://cdn.avo.africa/primers/2022/12/22/5/21/d6a3453c-fa45-4b73-b9f2-828e76bae9b0.jfif" alt="" className="" />
+                        </div>
+                        </div>
+
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+
+                    <div class="swiper-scrollbar"></div>
+                    </div>
                 </div>
-                <div className='row'>
-                    <div className='body'>
-                        <img src="https://cdn.avo.africa/cdn-cgi/image/w=580/primers/2022/12/29/12/41/c29431de-75cb-44ba-baf7-924ef88cc3e0.jpg" alt="" className="" />
-                    </div>
-                    <div className='body'>
-                        <img src="https://cdn.avo.africa/cdn-cgi/image/w=580/primers/2023/1/11/15/31/aa2e3bdd-d47e-4d49-9237-8cf17ee5f639.png" alt="" className="" />
-                    </div>
-                    <div className='body'>
-                        <img src="https://cdn.avo.africa/primers/2022/12/22/5/22/f4d06926-63f1-43d6-8ae0-483a5350ec8c.jfif" alt="" className="" />
-                    </div>
-                    <div className='body'>
-                        <img src="https://cdn.avo.africa/cdn-cgi/image/w=580/primers/2023/1/10/6/53/f784b523-fe84-4fb0-becd-b0393e3dba1e.jpg" alt="" className="" />
-                    </div>
-                    <div className='body'>
-                        <img src="https://cdn.avo.africa/primers/2022/12/22/5/21/d6a3453c-fa45-4b73-b9f2-828e76bae9b0.jfif" alt="" className="" />
-                    </div>
-                </div>
-                <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span className="visually-hidden">Previous</span>
-                </button>
-                <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span className="visually-hidden">Next</span>
-                </button>
             </div>
 
             <div className='card-detail'>
