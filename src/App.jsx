@@ -3,6 +3,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import DownloadApp from './pages/DownloadApp';
 import MyCart from './pages/MyCart';
+import Wallet from './pages/Wallet';
 import { useState, useEffect } from "react";
 import DotLoader from "react-spinners/DotLoader";
 import { Routes, Route, Navigate } from "react-router-dom";
@@ -29,6 +30,7 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/downloadapp" element={<DownloadApp />} />
             <Route path="/mycart" element={<MyCart />} />
+            <Route path="/wallet" element={<Wallet />} />
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
       }
