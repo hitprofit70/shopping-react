@@ -1,13 +1,29 @@
-import React from 'react';
+import React, {useState} from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
+import * as FaIcons from "react-icons/fa";
+import * as AiIcons from "react-icons/ai";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
+    const [sidebar, setSidebar] = useState(false)
+
+    const showSidebar = ()
     return (
         <>
             <nav className="navbar navbar-index navbar-expand-lg bg-light">
                 <div className="container-fluid">
-                    <button type="button" className="btn-close" aria-label="Close"></button>
+                    <Link to="#" className='menu-bars'>
+                        <FaIcons.FaBars/>
+                        </Link>
+                    <div className={sidebar ? 'nav-menu active' : 'nav-menu'}>
+                    <ul className='nav-menu-items'>
+                        <li className='navbar-toggle'>
+                            <Link to="#" className='menu-bars'>
+                                <AiIcons.AiFillCloseSquare/>
+                            </Link>
+                        </li>
+                    </ul>
+                    </div>
                     <Link to={"/home"} className="navbar-brand" href="#">NSP</Link>
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav">
