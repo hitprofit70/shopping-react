@@ -5,15 +5,15 @@ import * as AiIcons from "react-icons/ai";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
-    const [sidebar, setSidebar] = useState(false)
+    const [sidebar, setSidebar] = useState(false);
 
-    const showSidebar = ()
+    const showSidebar = () => setSidebar(!sidebar)
     return (
         <>
             <nav className="navbar navbar-index navbar-expand-lg bg-light">
                 <div className="container-fluid">
                     <Link to="#" className='menu-bars'>
-                        <FaIcons.FaBars/>
+                        <FaIcons.FaBars onClick={showSidebar} />
                         </Link>
                     <div className={sidebar ? 'nav-menu active' : 'nav-menu'}>
                     <ul className='nav-menu-items'>

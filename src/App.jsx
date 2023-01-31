@@ -10,7 +10,6 @@ import Wallet from './pages/Wallet';
 // import 'swiper/css';
 // import 'swiper/css/navigation';
 // import 'swiper/css/pagination';
-import { FaBeer } from 'react-icons/fa';
 import { useState, useEffect } from "react";
 import DotLoader from "react-spinners/DotLoader";
 import { Routes, Route, Navigate } from "react-router-dom";
@@ -68,7 +67,6 @@ function App() {
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
       }
-      <h3> Lets go for a <FaBeer />? </h3>
     </div>
   );
 }
